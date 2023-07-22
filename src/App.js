@@ -5,6 +5,7 @@ import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Services from './pages/Services';
 import Benefits from './pages/Benefits';
+import Contact from './pages/Contact'
 
 function App() {
   return (
