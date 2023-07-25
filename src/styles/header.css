@@ -1,0 +1,32 @@
+.header-container {
+  background-color: rgb(251, 240, 227);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar {
+  padding: 0 !important; 
+}
+
+
+.navbar-collapse{
+justify-content: end;
+}
+
+.nav-link {
+  margin-left: 80px;
+}
+
+.logo {
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  --bs-navbar-brand-font-size: 30px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+#contact-button {
+  padding-right: 10px;
+}

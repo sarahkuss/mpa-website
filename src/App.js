@@ -6,11 +6,16 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Benefits from './pages/Benefits';
 import Contact from './pages/Contact'
+import Header from './components/Header';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/about' element={<About />} />
