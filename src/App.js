@@ -9,6 +9,7 @@ import Contact from './pages/Contact'
 import Header from './components/Header';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/benefits' element={<Benefits />} />
         </Routes>
+      <Footer />
       </BrowserRouter>
     </div>
   );
