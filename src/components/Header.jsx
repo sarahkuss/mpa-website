@@ -8,7 +8,7 @@ export default function Header () {
     <Navbar className="sticky-top" expand="lg">
       <Container className="header-container" fluid>
         <Navbar.Brand as={Link} to='/' className="logo">Mary Pat Adams <br />
-        <p className="credentials">Integrative Wellness & Life Coach</p>
+        <p className="credentials">Integrative Wellness & Life Coaching</p>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

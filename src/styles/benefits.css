@@ -1,3 +1,18 @@
 .benefits-title {
 text-align: center;
 }
+
+.focus-areas {
+  display: grid;
+  justify-content: center;
+
+}
+
+.benefits-button-row {
+  height: 100px;
+}
+
+.benefits-button-col {
+  text-align: center;
+  padding: 15px;
+}
