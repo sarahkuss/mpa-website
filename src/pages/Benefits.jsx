@@ -1,7 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/benefits.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Benefits() {
+  const navigate = useNavigate()
+  const navigateToServices = () => {
+    navigate('/services')
+  }
   return (
     <>
       <Container className="bg-primary" fluid>
@@ -108,7 +113,7 @@ export default function Benefits() {
 
         <Row className="benefits-button-row">
           <Col className="benefits-button-col">
-            <button>I am ready to take action</button>
+            <button onClick={navigateToServices}>I am ready to take action</button>
           </Col>
 
         </Row>
