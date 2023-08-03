@@ -1,5 +1,22 @@
+.benefits-container {
+  background-color:  #B2BEB5;
+  padding: 10px;
+  font-size: 18px;
+}
+
 .benefits-title {
-text-align: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* 
+.first-row {
+  background-color: orange;
+} */
+
+.first-row-col {
+  margin: 10px 20px 10px 20px; 
+  background-color: whitesmoke;
+  padding: 10px 20px 10px 20px;
 }
 
 .focus-areas {

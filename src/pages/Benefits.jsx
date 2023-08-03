@@ -9,14 +9,14 @@ export default function Benefits() {
   }
   return (
     <>
-      <Container className="bg-primary" fluid>
+      <Container className="benefits-container" fluid>
         <Row>
           <Col className="benefits-title">
             <h1>Benefits</h1>
           </Col>
         </Row>
-        <Row className="bg-light text-center">
-          <Col>
+        <Row className="first-row text-center">
+          <Col className="first-row-col">
             Life coaching is a process of discovery. Discovering who you are,
             your inner gifts, talents, and dreams. Some of these qualities are
             shining through. Some of these qualities may be hidden under
