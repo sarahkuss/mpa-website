@@ -30,7 +30,7 @@ export default function Homepage () {
                 step of your life. <br />
                 Tiptoe if you must, but <br />
                 </p>
-              <button onClick={navigateToBenefits} className="step-button"><u>Take a Step</u></button>
+              <button onClick={navigateToBenefits} className="step-button">Take a Step</button>
             </div>
           </Col>
         </Row>

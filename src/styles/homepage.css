@@ -63,6 +63,9 @@
   font-weight: 600;
   font-size: 60px;
   color: whitesmoke;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
 }
 
 .video-content p{
