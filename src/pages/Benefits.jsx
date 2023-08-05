@@ -23,15 +23,15 @@ export default function Benefits() {
             emotional trauma or mental chatter.
           </Col>
         </Row>
-        <Row>
-          <Col className="bg-warning">
+        <Row className="second-row">
+          <Col className="second-col" sm={12} md={6}>
             <p>
               As your Integrative Wellness &amp; Life Coach, I will help you
               take actions to work towards and achieve a life that you feel is
               your best life.
             </p>
           </Col>
-          <Col className="bg-danger">
+          <Col className="third-col">
             <ul>
               <li>Solution centered focus</li>
               <li>Holistic life coaching model</li>

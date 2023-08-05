@@ -16,7 +16,20 @@
 .first-row-col {
   margin: 10px 20px 10px 20px; 
   background-color: whitesmoke;
-  padding: 10px 20px 10px 20px;
+  padding: 20px;
+}
+
+.second-row {
+  background-color: whitesmoke;
+  margin: 10px 40px 10px 40px !important;
+  padding: 20px; 
+}
+
+.second-col {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
 }
 
 .focus-areas {
