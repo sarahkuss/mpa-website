@@ -24,7 +24,7 @@ export default function Benefits() {
           </Col>
         </Row>
         <Row className="second-row">
-          <Col className="second-col" sm={12} md={6}>
+          <Col className="second-col" sm={12} lg={6}>
             <p>
               <strong>As your Integrative Wellness &amp; Life Coach, I will help you
               take actions to work towards and achieve a life that you feel is
@@ -51,7 +51,7 @@ export default function Benefits() {
         </Row>
 
         <Row className="fourth-row">
-          <Col className="fifth-col" sm={12} md={6}>
+          <Col className="fifth-col" sm={12} lg={6}>
             Wellness requires intentional and focused time, energy, thoughts,
             habits, choices and actions which will lead you to wholeness. It is
             supporting and healing all four body systems: mental, emotional,
@@ -61,12 +61,14 @@ export default function Benefits() {
             wellness. Find wellness and you will find balance.
           </Col>
           <Col className="sixth-col"> 
-            <Image src="images/sunrise.jpg" fluid className="first-image"/>
+            <Image src="images/sunrise2.jpg" fluid className="first-image"/>
           </Col>
         </Row>
 
         <Row className="fifth-row">
-          <Col className="seventh-col">image</Col>
+          <Col className="seventh-col" sm={12} lg={6}>
+            <Image src="images/dance.png" className="second-image" />
+          </Col>
           <Col className="eighth-col">
             An integrative Wellness and life coach is uniquely different than a
             traditional life coach. I am trained in life coaching fundamentals,
@@ -115,7 +117,7 @@ export default function Benefits() {
 
         <Row className="benefits-button-row">
           <Col className="benefits-button-col">
-            <button onClick={navigateToServices}>I am ready to take action</button>
+            <button className="benefits-button" onClick={navigateToServices}>I am ready to take action</button>
           </Col>
 
         </Row>

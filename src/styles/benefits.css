@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Lora&family=Nunito+Sans:opsz@6..12&family=Raleway:wght@300;500;800&display=swap');
-
+/* 
 body {
-  /* font-family: 'Karla', sans-serif; */
-/* font-family: 'Lora', serif; */
-/* font-family: 'Nunito Sans', sans-serif; */
+  font-family: 'Karla', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Nunito Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
-}
+} */
 
 .benefits-container {
   background-color:  #B2BEB5;
-  /* padding: 10px; */
   font-size: 20px;
+  line-height: 1.7;
+  font-family: 'Raleway', sans-serif;
 }
 
 .benefits-title {
@@ -19,7 +20,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .benefits-title h1 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .first-row {
@@ -41,7 +42,8 @@ font-family: 'Raleway', sans-serif;
   text-align: center;
   display: flex;
   align-items: center;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-color: rgb(251, 240, 227);
   padding: 20px 20px 10px 20px !important;
 }
 
@@ -60,6 +62,7 @@ font-family: 'Raleway', sans-serif;
 
 .fourth-row {
   margin: 20px 40px 0px 40px !important;
+  background-color: whitesmoke;
 }
 
 .fifth-col {
@@ -75,32 +78,43 @@ font-family: 'Raleway', sans-serif;
   padding: 0px !important;
   margin: 0px 0px 0px .1px !important;
 }
-/* .first-image {
- width: 100%;
- height: auto;
-} */
+.first-image {
+  width: 100%;
+  height: 100%;
+ }
 
-/* .fifth-row {
-  margin: 40px;
-} */
+.second-image {
+ width: 100%;
+ height: 100%;
+}
+
+.fifth-row {
+  margin: 20px 40px 0px 40px !important;
+}
 
 .seventh-col {
   background-color: antiquewhite;
-  padding: 40px;
-  margin: 20px 0px 20px 20px !important;
+  padding: 0px !important;
+  /* margin: 20px 0px 20px 20px !important; */
 }
 
 .eighth-col {
-  background-color: whitesmoke;
-  padding: 40px;
-  margin: 20px 20px 20px 0px !important;
+  /* background-color: whitesmoke; */
+  background-color: rgb(251, 240, 227);
+  padding: 40px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* margin: 20px 20px 20px 0px !important; */
 }
 
+.sixth-row {
+  margin: 20px 40px !important;
+}
 .focus-areas {
   display: grid;
   justify-content: center;
   background-color: whitesmoke;
-  margin: 30px 60px;
   padding: 20px;
 }
 .focus-areas h3 {
@@ -108,8 +122,8 @@ font-family: 'Raleway', sans-serif;
 }
 
 .seventh-row {
-  background-color: whitesmoke;
-  margin: 20px 30px !important;
+  background-color: rgb(251, 240, 227);
+  margin: 0px 40px !important;
   padding: 20px;
 }
 
@@ -117,12 +131,26 @@ font-family: 'Raleway', sans-serif;
   font-size: 24px;
 }
 
-.benefits-button-row {
-  height: 100px;
-}
-
 .benefits-button-col {
   text-align: center;
   padding: 15px;
 }
 
+.benefits-button {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .benefits-container {
+    font-size: 16px; /* Adjust the font size for mobile devices */
+  }
+
+  .benefits-container h3 {
+    font-size: 20px;
+  }
+
+  .benefits-container h1 {
+    font-size: 35px;
+  }
+}
