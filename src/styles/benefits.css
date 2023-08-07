@@ -9,33 +9,32 @@ font-family: 'Raleway', sans-serif;
 
 .benefits-container {
   background-color:  #B2BEB5;
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 20px;
 }
 
 .benefits-title {
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .benefits-title h1 {
   font-size: 40px;
 }
-/* 
+
 .first-row {
-  background-color: orange;
-} */
+  margin: 0px 40px 0px 40px !important;
+}
 
 .first-row-col {
-  margin: 10px 20px 10px 20px; 
+  /* margin: 10px 20px 10px 20px;  */
   background-color: whitesmoke;
   padding: 20px;
 }
 
 .second-row {
-  background-color: whitesmoke;
-  margin: 10px 40px 20px 40px !important;
-  padding: 20px; 
+  margin: 20px 40px 20px 40px !important;
+  /* padding: 20px;  */
 }
 
 .second-col {
@@ -43,6 +42,12 @@ font-family: 'Raleway', sans-serif;
   display: flex;
   align-items: center;
   background-color: antiquewhite;
+  padding: 20px 20px 10px 20px !important;
+}
+
+.third-col {
+  padding: 40px;
+  background-color: whitesmoke;
 }
 
 .third-row {
@@ -50,41 +55,66 @@ font-family: 'Raleway', sans-serif;
   padding: 10px;
   display: flex;
   justify-content: center;
-  margin: 10px 20px;
+  margin: 0px 50px 0px 50px;
 }
 
 .fourth-row {
-  margin: 10px 40px 40px 40px;
+  margin: 20px 40px 0px 40px !important;
 }
 
 .fifth-col {
   background-color: whitesmoke;
-  padding: 40px;
+  padding: 40px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .sixth-col {
-  background-color: antiquewhite;
-  padding: 40px;
+  /* background-color: antiquewhite; */
+  padding: 0px !important;
+  margin: 0px 0px 0px .1px !important;
 }
+/* .first-image {
+ width: 100%;
+ height: auto;
+} */
 
-.fifth-row {
+/* .fifth-row {
   margin: 40px;
-}
+} */
 
 .seventh-col {
   background-color: antiquewhite;
   padding: 40px;
+  margin: 20px 0px 20px 20px !important;
 }
 
 .eighth-col {
   background-color: whitesmoke;
   padding: 40px;
+  margin: 20px 20px 20px 0px !important;
 }
 
 .focus-areas {
   display: grid;
   justify-content: center;
+  background-color: whitesmoke;
+  margin: 30px 60px;
+  padding: 20px;
+}
+.focus-areas h3 {
+  text-align: center;
+}
 
+.seventh-row {
+  background-color: whitesmoke;
+  margin: 20px 30px !important;
+  padding: 20px;
+}
+
+.seventh-row h3 {
+  font-size: 24px;
 }
 
 .benefits-button-row {
@@ -95,3 +125,4 @@ font-family: 'Raleway', sans-serif;
   text-align: center;
   padding: 15px;
 }
+

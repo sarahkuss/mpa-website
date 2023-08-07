@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "../styles/benefits.css";
 import { useNavigate } from "react-router-dom";
 
@@ -17,18 +17,18 @@ export default function Benefits() {
         </Row>
         <Row className="first-row text-center">
           <Col className="first-row-col">
-            Life coaching is a process of discovery. Discovering who you are,
+            <strong>Life coaching is a process of discovery. Discovering who you are,
             your inner gifts, talents, and dreams. Some of these qualities are
             shining through. Some of these qualities may be hidden under
-            emotional trauma or mental chatter.
+            emotional trauma or mental chatter.</strong>
           </Col>
         </Row>
         <Row className="second-row">
           <Col className="second-col" sm={12} md={6}>
             <p>
-              As your Integrative Wellness &amp; Life Coach, I will help you
+              <strong>As your Integrative Wellness &amp; Life Coach, I will help you
               take actions to work towards and achieve a life that you feel is
-              your best life.
+              your best life.</strong>
             </p>
           </Col>
           <Col className="third-col">
@@ -51,7 +51,7 @@ export default function Benefits() {
         </Row>
 
         <Row className="fourth-row">
-          <Col className="fifth-col">
+          <Col className="fifth-col" sm={12} md={6}>
             Wellness requires intentional and focused time, energy, thoughts,
             habits, choices and actions which will lead you to wholeness. It is
             supporting and healing all four body systems: mental, emotional,
@@ -60,7 +60,9 @@ export default function Benefits() {
             Wellness and balance go hand-in-hand. Find balance and you will find
             wellness. Find wellness and you will find balance.
           </Col>
-          <Col className="sixth-col">image</Col>
+          <Col className="sixth-col"> 
+            <Image src="images/sunrise.jpg" fluid className="first-image"/>
+          </Col>
         </Row>
 
         <Row className="fifth-row">
@@ -77,9 +79,9 @@ export default function Benefits() {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="sixth-row">
           <Col className="focus-areas">
-            <h2>The areas we will focus on are:</h2>
+            <h3>The areas we will focus on are:</h3>
             <ul>
               <li>
                 <strong>Mental </strong>
@@ -103,7 +105,7 @@ export default function Benefits() {
           </Col>
         </Row>
 
-        <Row className="bg-danger text-center">
+        <Row className="seventh-row text-center">
           <h3>
             Without balance there is no wellness. Without wellness, there is no
             balance. Together we will work to create balance and wellness which
