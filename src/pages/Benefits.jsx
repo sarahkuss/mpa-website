@@ -43,15 +43,15 @@ export default function Benefits() {
         </Row>
 
         <Row>
-          <Col className="bg-success text-center">
-            <h2>
+          <Col className="third-row text-center">
+            <h3>
               What is important during this process is your wellness and balance
-            </h2>
+            </h3>
           </Col>
         </Row>
 
-        <Row>
-          <Col className="bg-danger">
+        <Row className="fourth-row">
+          <Col className="fifth-col">
             Wellness requires intentional and focused time, energy, thoughts,
             habits, choices and actions which will lead you to wholeness. It is
             supporting and healing all four body systems: mental, emotional,
@@ -60,12 +60,12 @@ export default function Benefits() {
             Wellness and balance go hand-in-hand. Find balance and you will find
             wellness. Find wellness and you will find balance.
           </Col>
-          <Col className="bg-warning">image</Col>
+          <Col className="sixth-col">image</Col>
         </Row>
 
-        <Row>
-          <Col className="bg-info">image</Col>
-          <Col className="bg-success">
+        <Row className="fifth-row">
+          <Col className="seventh-col">image</Col>
+          <Col className="eighth-col">
             An integrative Wellness and life coach is uniquely different than a
             traditional life coach. I am trained in life coaching fundamentals,
             combines with a diverse range of healing modalities. The are of

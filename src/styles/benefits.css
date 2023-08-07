@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lora&family=Nunito+Sans:opsz@6..12&family=Raleway:wght@300;500;800&display=swap');
+
+body {
+  /* font-family: 'Karla', sans-serif; */
+/* font-family: 'Lora', serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+font-family: 'Raleway', sans-serif;
+}
+
 .benefits-container {
   background-color:  #B2BEB5;
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .benefits-title {
   text-align: center;
   padding-bottom: 10px;
+}
+
+.benefits-title h1 {
+  font-size: 40px;
 }
 /* 
 .first-row {
@@ -21,7 +34,7 @@
 
 .second-row {
   background-color: whitesmoke;
-  margin: 10px 40px 10px 40px !important;
+  margin: 10px 40px 20px 40px !important;
   padding: 20px; 
 }
 
@@ -30,6 +43,42 @@
   display: flex;
   align-items: center;
   background-color: antiquewhite;
+}
+
+.third-row {
+  background-color: whitesmoke;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px;
+}
+
+.fourth-row {
+  margin: 10px 40px 40px 40px;
+}
+
+.fifth-col {
+  background-color: whitesmoke;
+  padding: 40px;
+}
+
+.sixth-col {
+  background-color: antiquewhite;
+  padding: 40px;
+}
+
+.fifth-row {
+  margin: 40px;
+}
+
+.seventh-col {
+  background-color: antiquewhite;
+  padding: 40px;
+}
+
+.eighth-col {
+  background-color: whitesmoke;
+  padding: 40px;
 }
 
 .focus-areas {
