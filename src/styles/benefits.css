@@ -16,7 +16,7 @@ font-family: 'Raleway', sans-serif;
 
 .benefits-title {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .benefits-title h1 {
@@ -25,6 +25,7 @@ font-family: 'Raleway', sans-serif;
 
 .first-row {
   margin: 0px 40px 0px 40px !important;
+  border: 3px solid rgb(241, 210, 172);
 }
 
 .first-row-col {
@@ -58,6 +59,7 @@ font-family: 'Raleway', sans-serif;
   display: flex;
   justify-content: center;
   margin: 0px 50px 0px 50px;
+  border: 3px solid rgb(241, 210, 172);
 }
 
 .fourth-row {
@@ -125,6 +127,7 @@ font-family: 'Raleway', sans-serif;
   background-color: rgb(251, 240, 227);
   margin: 0px 40px !important;
   padding: 20px;
+  border: 3px solid rgb(241, 210, 172);
 }
 
 .seventh-row h3 {
