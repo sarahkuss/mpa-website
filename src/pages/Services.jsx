@@ -102,7 +102,7 @@ export default function Services() {
 
         <Row className="add-title">
           <Col>
-            <h3>Add On's to Any Package</h3>
+            <h3><strong>Add On's to Any Package</strong></h3>
           </Col>
         </Row>
 
