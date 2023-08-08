@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lora&family=Nunito+Sans:opsz@6..12&family=Raleway:wght@300;500;800&display=swap');
+
+
+.about-container {
+  background-color:  #B2BEB5;
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: 'Raleway', sans-serif;
+}
+
+.about-title {
+  padding: 10px;
+}
+
+.about-title h1 {
+  font-size: 45px;
+}
+
+.about-row{
+  margin: 0px 60px 20px 60px !important;
+}
+
+.image-col {
+  background-color: antiquewhite;
+}
+
+.about-col {
+  background-color: whitesmoke;
+  padding: 20px 40px !important;
+  text-align: center;
+  align-items: center;
+}
+
+.more-info-row {
+  margin: 0px 60px 0px 60px !important;
+  background-color: whitesmoke;
+  border: 3px solid rgb(241, 210, 172);
+}
+
+.more-info-col {
+  padding: 40px 60px !important;
+}
+
+
+
+.empty {
+  min-height: 20px;
+}
+
+@media (max-width: 767px) {
+  .about-container {
+    font-size: 16px;
+  }
+
+  .about-row {
+    margin: 0px 30px 20px 30px !important;
+  }
+
+  .more-info-row {
+    margin: 0px 30px 0px 30px !important;
+  }
+
+  .more-info-col {
+    padding: 25px !important;
+  }
+}

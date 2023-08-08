@@ -1,18 +1,19 @@
 import { Container, Row, Col } from "react-bootstrap";
+import "../styles/about.css"
 
 export default function About() {
   return (
     <>
-      <Container className="bg-primary" fluid>
+      <Container className="about-container" fluid>
         <Row>
-          <Col className="text-center">
+          <Col className="about-title text-center">
             <h1>About</h1>
           </Col>
         </Row>
 
-        <Row>
-          <Col className="bg-danger">image</Col>
-          <Col className="bg-warning">
+        <Row className="about-row">
+          <Col className="image-col" sm={12} md={6}>image</Col>
+          <Col className="about-col">
             <p>
               Hello, my name is Mary Pat Adams. I am an RN, BSN and a certified
               Integrative Wellness &amp; Life Coach, level II Reiki healing
@@ -21,8 +22,8 @@ export default function About() {
           </Col>
         </Row>
 
-        <Row>
-          <Col className="bg-info">
+        <Row className="more-info-row">
+          <Col className="more-info-col">
             <p>
               During our life time, we all have moments that cause us to pause
               and ask ourselves, “What’s next?” (Or – say: What are your life
@@ -68,6 +69,7 @@ export default function About() {
             </p>
           </Col>
         </Row>
+        <Row className="empty"></Row>
       </Container>
     </>
   );
