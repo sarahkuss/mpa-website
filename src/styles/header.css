@@ -45,6 +45,10 @@ justify-content: end;
 
   .logo {
     padding-left: 0px;
+    --bs-navbar-brand-font-size: 28px;
+  }
+  .credentials {
+    font-size: 14px;
   }
 }
 
