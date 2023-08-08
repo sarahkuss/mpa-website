@@ -137,8 +137,11 @@ font-family: 'Raleway', sans-serif;
 }
 
 .benefits-button {
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 10px;
+  background-color: whitesmoke;
+  border-color: rgb(241, 210, 172);
+  border-width: 4px;
 }
 
 @media (max-width: 767px) {
