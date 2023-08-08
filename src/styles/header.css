@@ -19,11 +19,12 @@ justify-content: end;
 
 .nav-link {
   margin-left: 80px;
+  --bs-nav-link-font-size: 22px;
 }
 
 .logo {
   padding-left: 10px;
-  --bs-navbar-brand-font-size: 30px;
+  --bs-navbar-brand-font-size: 40px;
 }
 
 .navbar-brand {
