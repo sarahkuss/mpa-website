@@ -12,7 +12,7 @@ export default function Homepage () {
   }
   return (
     <>
-      <Container fluid>
+      <Container className="homepage-container" fluid>
         <Row d-flex justify-content-center>
           <Col xs={11}
             md={{offset:6, span:6}}
