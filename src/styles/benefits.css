@@ -159,4 +159,12 @@ font-family: 'Raleway', sans-serif;
   .benefits-container h1 {
     font-size: 35px;
   }
+
+  .benefits-container .row {
+    margin: 0px 20px 20px 20px !important;
+  }
+
+  .third-row {
+    margin: 0px;
+  }
 }
