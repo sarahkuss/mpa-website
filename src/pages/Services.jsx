@@ -139,8 +139,13 @@ export default function Services() {
           </Col>
         </Row>
 
-        <Row>
-          <Col></Col>
+        <Row className="book-row">
+          <Col className="book-col">
+            <a href="https://mary-pat-adams---your-best-life.square.site/" target="_blank" rel="noopener noreferrer">
+              <button className="book-button">Book Now</button>
+            </a>
+          </Col>
+
         </Row>
       </Container>
     </>
