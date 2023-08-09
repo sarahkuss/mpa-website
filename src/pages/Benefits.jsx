@@ -119,7 +119,6 @@ export default function Benefits() {
           <Col className="benefits-button-col">
             <button className="benefits-button" onClick={navigateToServices}>I am ready to take action</button>
           </Col>
-
         </Row>
       </Container>
     </>

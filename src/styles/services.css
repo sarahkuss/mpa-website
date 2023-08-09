@@ -148,4 +148,8 @@
   .services-container .row {
     margin: 0px 20px 20px 20px !important;
   }
+
+  .services-container .book-row {
+    margin-bottom: 0px !important;
+  }
 }
