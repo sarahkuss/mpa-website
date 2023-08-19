@@ -88,5 +88,11 @@
 
   .image-col {
     padding: 0px !important;
+    height: 400px;
+  }
+
+  .about-col {
+    padding: 50px !important;
+    height: 250px;
   }
 }
