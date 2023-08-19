@@ -51,6 +51,12 @@
   padding: 40px 60px !important;
 }
 
+.iwa {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px !important;
+}
+
 .empty {
   min-height: 20px;
 }

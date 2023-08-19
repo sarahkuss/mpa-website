@@ -71,6 +71,13 @@ export default function About() {
             </p>
           </Col>
         </Row>
+
+        <Row >
+          <Col className="iwa">
+            <Image src="images/iwa.jpg"/>
+          </Col>
+        </Row>
+
         <Row className="empty"></Row>
       </Container>
     </>
