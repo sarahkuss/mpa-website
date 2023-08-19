@@ -74,7 +74,7 @@ export default function About() {
 
         <Row >
           <Col className="iwa">
-            <Image src="images/iwa.jpg"/>
+            <Image src="images/iwa.jpg" className="iwa-image"/>
           </Col>
         </Row>
 
