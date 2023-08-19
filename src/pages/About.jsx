@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "../styles/about.css"
 
 export default function About() {
@@ -12,7 +12,9 @@ export default function About() {
         </Row>
 
         <Row className="about-row">
-          <Col className="image-col" sm={12} md={6}>image</Col>
+          <Col className="image-col" sm={12} md={6}>
+            <Image src="images/MaryPat2.png" className="mpa-image" />
+          </Col>
           <Col className="about-col">
             <p>
               Hello, my name is Mary Pat Adams. I am an RN, BSN and a certified
@@ -38,7 +40,7 @@ export default function About() {
               wondering, how can I create my best life.
             </p>
             <p>
-              I get it, I’ve been there. I have changed careers going to from an
+              I get it, I’ve been there. I have changed careers going from an
               office manager, to enrolling in nursing school in my 30’s while
               raising a 2-year-old, as a single mom. After 25 years in nursing,
               pursued a new path as a wellness &amp; life coach.
