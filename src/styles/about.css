@@ -22,12 +22,22 @@
 
 .image-col {
   background-color: antiquewhite;
+  height: 450px;
+  /* padding: 0px !important; */
+  display: flex;
+  justify-content: center;
+}
+
+.mpa-image {
+  width: 90%;
+  height: 100%;
 }
 
 .about-col {
   background-color: whitesmoke;
   padding: 20px 40px !important;
   text-align: center;
+  display: flex;
   align-items: center;
 }
 
@@ -60,5 +70,13 @@
 
   .more-info-col {
     padding: 25px !important;
+  }
+  
+  .mpa-image {
+    width: 100%;
+  }
+
+  .image-col {
+    padding: 0px !important;
   }
 }
