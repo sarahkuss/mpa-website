@@ -119,8 +119,8 @@ export default function Services() {
               techniques and mind body medicine with the stimulation of neural
               pathways to release negative psychological patterns, attachments
               to negative emotions and limiting beliefs on the conscious and
-              unconscious levels. EMC is not a discussion; it is an experience.
-              With EMC you’ll experience deep relaxation, awareness, acceptance
+              unconscious levels. ECM is not a discussion; it is an experience.
+              With ECM you’ll experience deep relaxation, awareness, acceptance
               and witnessing.
             </p>
           </Col>
