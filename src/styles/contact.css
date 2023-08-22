@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lora&family=Nunito+Sans:opsz@6..12&family=Raleway:wght@300;500;800&display=swap');
+
+
 .contact-container {
   min-height: 100vh;
   background-color: #B2BEB5;
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-title {
+  padding: 15px;
+  font-size: 45px;
+}
+
+.contact-col {
+  padding: 60px;
+}
+
+.contact-image-col {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact-image {
+  border: 3px solid rgb(241, 210, 172);
+}
+
+@media (max-width: 767px) {
+  .contact-container {
+    font-size: 16px;
+  }
 }
