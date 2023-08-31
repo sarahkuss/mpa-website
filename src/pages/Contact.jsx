@@ -15,7 +15,9 @@ export default function Contact () {
         <Row>
           <Col className="contact-col text-center">
             <p>Hours flexible to meet your schedule</p>
-            <p><strong>Questions?</strong><br /> mpa&#8209;yourbestlife.coach@outlook.com</p>
+            <p><strong>Questions?</strong><br /> 
+            <a href="mailto:mpa-yourbestlife.coach@outlook.com">mpa&#8209;yourbestlife.coach@outlook.com</a>
+            </p>
           </Col>
         </Row>
 
