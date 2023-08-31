@@ -35,7 +35,7 @@ export default function About() {
             <p>
               This could be when you know your current career isn’t fulfilling
               your purpose, maybe your children are grown and now you are
-              wondering, what’s next for you? you have been through a life
+              wondering, what’s next for you? You have been through a life
               changing event that has shifted your life. Or you are just
               wondering, how can I create my best life.
             </p>

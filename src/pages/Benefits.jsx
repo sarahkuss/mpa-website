@@ -72,7 +72,7 @@ export default function Benefits() {
           <Col className="eighth-col">
             An integrative Wellness and life coach is uniquely different than a
             traditional life coach. I am trained in life coaching fundamentals,
-            combines with a diverse range of healing modalities. The are of
+            combined with a diverse range of healing modalities. The are of
             focus modalities are mental, emotional, physical and spiritual.
             Using tools, techniques and action plans from a holistic approach. I
             help clients create a meaningful change in their lives. I help you
