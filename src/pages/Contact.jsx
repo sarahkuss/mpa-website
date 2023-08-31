@@ -16,7 +16,7 @@ export default function Contact () {
           <Col className="contact-col text-center">
             <p>Hours flexible to meet your schedule</p>
             <p><strong>Questions?</strong><br /> 
-            <a href="mailto:mpa-yourbestlife.coach@outlook.com">mpa&#8209;yourbestlife.coach@outlook.com</a>
+            <a href="mailto:mpa-yourbestlife.coach@outlook.com" target="_blank" rel="noreferrer">mpa&#8209;yourbestlife.coach@outlook.com</a>
             </p>
           </Col>
         </Row>
